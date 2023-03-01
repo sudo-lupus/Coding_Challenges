@@ -11,4 +11,4 @@ for i in range(3, 2_000_000, 2):
         sum += i
         print(i)
 
-print(f"The sum of all primes up to 2 million is {sum}")
+print(f"The sum of all primes up to 2'000'000 is {sum}")
