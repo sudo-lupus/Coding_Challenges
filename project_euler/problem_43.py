@@ -11,7 +11,9 @@ def is_pandigital(num):
 
 print(10**9)
 pan_digits = []
+digits = []
 
-def gen_pan_digits():
-    digits = [str(i) for i in range(0,10)]
-    pan_digits = []
+for i in range(10 ** 9, 10 ** 10):
+    if(is_pandigital(i)):
+        print(i)
+        digits.append(i)
