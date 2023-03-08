@@ -6,4 +6,3 @@ Example : n=5 --> [5,4,3,2,1]
 
 def reverse_seq(n):
     return list(reversed([i for i in range(1,n+1)]))
-    
