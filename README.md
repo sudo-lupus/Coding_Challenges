@@ -7,4 +7,4 @@
 ![CodeWars](https://www.codewars.com/users/sudo-lupus/badges/large)  
 
 #### Updated on 03/03/2023
-![03/03/2023](https://user-images.githubusercontent.com/67869327/222584425-2988dcd3-e72f-4f96-a47c-cb79a8772b9c.png)
+![03/03/2023](https://user-images.githubusercontent.com/67869327/225091776-4dd67ad4-a076-4e9c-b99b-699099c11139.png)
