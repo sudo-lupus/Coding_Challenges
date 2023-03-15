@@ -3,7 +3,7 @@
 ### [Project Euler](https://projecteuler.net/)  
 ![Project Euler](https://projecteuler.net/profile/sudo_lupus.png)
 
-### [CodeWars](https://www.codewars.com)
+### [CodeWars](https://www.codewars.com/users/sudo-lupus)
 ![CodeWars](https://www.codewars.com/users/sudo-lupus/badges/large)  
 
 #### Updated on 15/03/2023
