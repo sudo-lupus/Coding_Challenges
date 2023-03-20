@@ -20,15 +20,17 @@ result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", 
 '''
 
 def solution(string,markers):
-    print([string, markers])
     import re
-    print(string)
+    # 1. Remove anything after a marker
     for marker in markers:
         string = re.sub(r"([\{}]).*".format(marker), "", string)            # Replaces anything after marker until EoL with ""
+        
+    # 2. Remove trailing whitespaces and tabs    
     lines = re.findall(r"(.*\n|.*$)", string)                               # Splits strings into individual lines at line breaks
     lines = [re.sub(r"( *|\t*)\n", "\n", line) for line in lines][:-1]      # Removes tabs and spaces at EoL
     try:
         lines[-1] = re.sub("( *|\t*)$", "", lines[-1])                      # Removes Spaces and tabs at end of last line
     except IndexError:
         pass
+    
     return "".join(lines)
